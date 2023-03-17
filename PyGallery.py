@@ -29,7 +29,7 @@ class PyGallery(MDApp):
         self.bucle = Clock.schedule_interval(self.on_play, 3)
 
     def file_manager_open(self):  # todo: OK
-        self.file_manager.show('/')  # output manager to the screen
+        self.file_manager.show('./Saved Pictures/')  # output manager to the screen
         self.manager_open = True
 
     def select_path(self, path):  # todo: OK
